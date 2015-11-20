@@ -9,15 +9,6 @@
     padding-right: 15px;
 }
 
-.navbar-brand {
-    margin: 0;
-    padding: 0;
-}
-
-.navbar-brand img {
-    height:50px;
-}
-
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
