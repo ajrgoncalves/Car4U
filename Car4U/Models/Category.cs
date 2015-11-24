@@ -11,5 +11,7 @@ namespace Car4U.Models
         public string CategoryName { get; set; }
         public int Price { get; set; }
         public int Warranty { get; set; }
+
+        public virtual ICollection<Reservation> reservation { get; set; }
     }
 }
