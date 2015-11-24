@@ -203,6 +203,7 @@
     <Compile Include="Models\CarModel.cs" />
     <Compile Include="Models\Reservation.cs" />
     <Compile Include="Models\StockExtra.cs" />
+    <Compile Include="Models\unavailability.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
