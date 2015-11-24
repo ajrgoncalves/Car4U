@@ -201,6 +201,8 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MeetingPoint.cs" />
     <Compile Include="Models\CarModel.cs" />
+    <Compile Include="Models\Moment.cs" />
+    <Compile Include="Models\MomentType.cs" />
     <Compile Include="Models\Reservation.cs" />
     <Compile Include="Models\StockExtra.cs" />
     <Compile Include="Models\unavailability.cs" />
