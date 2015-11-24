@@ -6,6 +6,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using Car4U.Models;
+using Car4U.DAL;
 
 namespace Car4U
 {

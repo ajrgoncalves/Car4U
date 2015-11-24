@@ -11,6 +11,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Car4U.Models;
+using Car4U.DAL;
 
 namespace Car4U
 {

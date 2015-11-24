@@ -5,14 +5,15 @@ namespace Car4U.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Car4U.Models.ApplicationDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Car4U.DAL.ApplicationDbContext>
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
         }
 
-        protected override void Seed(Car4U.Models.ApplicationDbContext context)
+        protected override void Seed(Car4U.DAL.ApplicationDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 
