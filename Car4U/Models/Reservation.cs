@@ -11,6 +11,12 @@ namespace Car4U.Models
         public DateTime ReservationDate { get; set; }
         public DateTime ReturnDate { get; set; }
         public DateTime DeliveryDate { get; set; }
-        public int FinalPrice { get; set; }
+        public double FinalPrice { get; set; }
+        public virtual MeetingPoint IdMPDelivery { get; set; }
+        public virtual MeetingPoint IdMPReturn { get; set; }
+        public virtual ICollection<Extra> IdExtras { get; set; }
+        public virtual ICollection<Moment> IdMoments { get; set; }
+        public virtual Category IdCategory { get; set; }
+        public virtual ApplicationUser user { get; set; }
     }
 }

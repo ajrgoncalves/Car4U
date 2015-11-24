@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Collections.Generic;
 
 namespace Car4U.Models
 {
@@ -16,9 +17,8 @@ namespace Car4U.Models
         public string Address { get; set; }
         public string License { get; set; }
         public string BI { get; set; }
-       
         public string Country { get; set; }
-       
+        public virtual ICollection<Reservation> IdReservations { get; set; }
 
 
 
