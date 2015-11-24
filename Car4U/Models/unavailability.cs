@@ -12,6 +12,6 @@ namespace Car4U.Models
         public string Observation { get; set; }
         public DateTime BeginDate { get; set; }
         public DateTime FinishDate { get; set; }
-        public string IdCar { get; set; }
+        
     }
 }

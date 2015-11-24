@@ -14,9 +14,7 @@ namespace Car4U.Models
         public int NLuggage { get; set; }
         public string Engine { get; set; }
         public string HorsePower { get; set; }
-        public string IdCategory { get; set; }
-        public string IdFuel { get; set; }
-        public string IdBrand { get; set; }
-        public string IdModel { get; set; }
+       
+       
     }
 }
