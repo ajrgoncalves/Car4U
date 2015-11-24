@@ -190,13 +190,17 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Brand.cs" />
+    <Compile Include="Models\Car.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Extra.cs" />
     <Compile Include="Models\ExtraModel.cs" />
     <Compile Include="Models\ExtraType.cs" />
+    <Compile Include="Models\Fuel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MeetingPoint.cs" />
+    <Compile Include="Models\CarModel.cs" />
     <Compile Include="Models\Reservation.cs" />
     <Compile Include="Models\StockExtra.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
