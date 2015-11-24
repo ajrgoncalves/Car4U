@@ -8,5 +8,7 @@ namespace Car4U.Models
     public class Extra
     {
         public string ID { get; set; }
+        public virtual ICollection<Reservation> IdReservations { get; set; }
+        public virtual ExtraModel IdModel { get; set; }
     }
 }
