@@ -10,6 +10,6 @@ namespace Car4U.Models
         public string id { get; set; }
         public string Description { get; set; }
         public int Percentage { get; set; }
-        public DateTime Days { get; set; }
+        public int Days { get; set; }
     }
 }
