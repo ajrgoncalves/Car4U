@@ -1,8 +1,8 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-@*div class="home-box jumbotron">*@
-    <form class="home-box jumbotron" style="">
+<div class="col-lg-12 col-sm-12">
+    <form class="home-box jumbotron " style="">
         <label class="label-box" for="sel1">Local de entrega</label>
         <select name="PickUpLoc" class="form-control placeholder" id="sel1">
             <option value="" selected disabled>Escolha o local de entrega</option>
@@ -30,21 +30,20 @@
             <option value="exe4">Example4</option>
         </select>
         <label class="label-box">Data\Hora entrega</label>
-        <div class="form-inline">            
+        <div class="form-inline">
             <input type="date" class="form-control input-size-xs" />
             <input type="time" class="form-control input-size-xxs" />
         </div>
         <label class="label-box">Dat\Hora recolha</label>
-        <div class="form-inline">            
+        <div class="form-inline">
             <input type="date" class="form-control input-size-xs" />
-            <input type="time" class="form-control input-size-xxs"/>
+            <input type="time" class="form-control input-size-xxs" />
         </div>
         <button class="btn btn-secondary btn-sm subButton">Submeter</button>
-        
 
     </form>
-@*</div>*@
-<div>
-    <img src="~/Content/Car4U.fw.png" class="img-responsive" style="float:right" />
+    
+    <div>
+        <img src="~/Content/Car4U.fw.png" class="img-responsive"/>
+    </div>
 </div>
-

@@ -14,10 +14,13 @@
     width:100px;   
 }
 
+
 .subButton{
     float:right;
     background-color:ActiveCaption;
-    }
+    margin-top:10px;
+
+}
 
 /*Select disable text*/
 .placeholder{
@@ -328,4 +331,10 @@ textarea {
 .about {
     padding-left: 40px;
 }
+
+@media (max-width:400px) {
+        .home-box{
+            margin-left:5px;
+        }
+    }
 
