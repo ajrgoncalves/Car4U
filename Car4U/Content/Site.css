@@ -1,5 +1,47 @@
 ﻿@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
 
+.home-box{
+    margin-top:20px;
+    float:left;
+}
+
+.input-size-xs{
+    width:150px;
+    
+}
+
+.input-size-xxs{
+    width:100px;   
+}
+
+.subButton{
+    float:right;
+    background-color:ActiveCaption;
+    }
+
+/*Select disable text*/
+.placeholder{
+    color: grey;
+    }
+select option:first-child{
+    color: grey; display: none;
+    }
+select option{
+    color: #555;
+    }
+/*Select disable text*/
+/*Index Box label*/
+.label-box {
+color: black;
+font-weight:unset;
+width: 140px;
+font-size:small;
+}
+    .label-box:after {
+        content: ":";
+    }
+/**/
+
 .footer-img{
     width:25%;
     height:25%;
