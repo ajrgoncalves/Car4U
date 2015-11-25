@@ -352,6 +352,7 @@
     <Content Include="Views\Unavailabilities\Edit.cshtml" />
     <Content Include="Views\Unavailabilities\Index.cshtml" />
     <Content Include="Views\Home\Frota.cshtml" />
+    <Content Include="Views\Home\Extras.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

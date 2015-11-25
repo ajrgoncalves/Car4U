@@ -30,5 +30,9 @@ namespace Car4U.Controllers
         {
             return View();
         }
+        public ActionResult Extras()
+        {
+            return View();
+        }
     }
 }
