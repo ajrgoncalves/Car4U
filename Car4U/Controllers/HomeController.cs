@@ -26,5 +26,9 @@ namespace Car4U.Controllers
 
             return View();
         }
+        public ActionResult Frota()
+        {
+            return View();
+        }
     }
 }
