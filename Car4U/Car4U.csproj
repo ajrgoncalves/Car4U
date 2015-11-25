@@ -351,6 +351,7 @@
     <Content Include="Views\Unavailabilities\Details.cshtml" />
     <Content Include="Views\Unavailabilities\Edit.cshtml" />
     <Content Include="Views\Unavailabilities\Index.cshtml" />
+    <Content Include="Views\Home\Frota.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -377,7 +378,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>7316</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
