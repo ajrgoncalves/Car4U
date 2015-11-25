@@ -34,5 +34,7 @@ namespace Car4U.DAL
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Car4U.Models.Unavailability> Unavailabilities { get; set; }
     }
 }
