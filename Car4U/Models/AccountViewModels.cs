@@ -64,6 +64,24 @@ namespace Car4U.Models
 
     public class RegisterViewModel
     {
+        [Display(Name = "Name")]
+        public string Name { get; set; }
+
+        [Display(Name = "PostalCode")]
+        public string PostalCode { get; set; }
+
+        [Display(Name = "Address")]
+        public string Address { get; set; }
+
+        [Display(Name = "License")]
+        public string License { get; set; }
+
+        [Display(Name = "BI")]
+        public string BI { get; set; }
+
+        [Display(Name = "Country")]
+        public string Country { get; set;}
+
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
