@@ -1,5 +1,34 @@
 ﻿@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
 
+/*Index moving img*/
+.object {
+    position: absolute;
+}
+.van {
+    top: 45%;
+    left: 44%;
+}
+
+#axis:hover .move-right{
+    transform: translate(350px,0);
+    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+    -o-transform: translate(350px,0); /** Opera **/
+    -moz-transform: translate(350px,0); /** Firefox **/
+}
+
+.object {
+    position: absolute;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 2s ease-in-out; /** Firefox **/
+    -o-transition: all 2s ease-in-out; /** Opera **/
+}
+/**/
+.indexLogo {
+    background-attachment: fixed;
+    background-position: center;
+}
+
 .home-box{
     margin-top:20px;
     float:left;
