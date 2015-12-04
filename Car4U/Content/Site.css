@@ -10,10 +10,18 @@
 }
 
 #axis:hover .move-right{
-    transform: translate(350px,0);
-    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
-    -o-transform: translate(350px,0); /** Opera **/
-    -moz-transform: translate(350px,0); /** Firefox **/
+    transform: translate(550px,0);
+    -webkit-transform: translate(550px,0); /** Chrome & Safari **/
+    -o-transform: translate(550px,0); /** Opera **/
+    -moz-transform: translate(550px,0); /** Firefox **/
+}
+
+#axis:hover .move-right :after{
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
 }
 
 .object {
@@ -25,8 +33,9 @@
 }
 /**/
 .indexLogo {
-    background-attachment: fixed;
-    background-position: center;
+   float:right;
+   margin-right:100px;
+   margin-top:300px;
 }
 
 .home-box{
