@@ -5,11 +5,12 @@ using System.Web;
 
 namespace Car4U.Models
 {
-    public class Fuel
+    public class Status
     {
         public string Id { get; set; }
         public string Description { get; set; }
-
-        public virtual ICollection<Car> car { get; set; }
+        
+        public virtual ICollection<CarStatus> CarStatus { get; set; }
+        
     }
 }

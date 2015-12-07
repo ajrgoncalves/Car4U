@@ -16,11 +16,10 @@ namespace Car4U.Models
         public string Engine { get; set; }
         public string HorsePower { get; set; }
 
-        public virtual Unavailability unavailability { get; set; }
+        public virtual ICollection<CarStatus> CarStatus { get; set; }
 
-        public virtual Fuel fuel { get; set; }
+        public virtual FuelType fuelType { get; set; }
 
-        public virtual Brand brand { get; set; }
 
         public virtual CarModel carModel { set; get; }
     }

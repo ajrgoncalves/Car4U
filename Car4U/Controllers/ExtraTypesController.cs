@@ -28,7 +28,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            ExtraType extraType = db.ExtraTypes.Find(id);
+            ExtraModelType extraType = db.ExtraTypes.Find(id);
             if (extraType == null)
             {
                 return HttpNotFound();
@@ -47,7 +47,7 @@ namespace Car4U.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Description")] ExtraType extraType)
+        public ActionResult Create([Bind(Include = "ID,Description")] ExtraModelType extraType)
         {
             if (ModelState.IsValid)
             {
@@ -66,7 +66,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            ExtraType extraType = db.ExtraTypes.Find(id);
+            ExtraModelType extraType = db.ExtraTypes.Find(id);
             if (extraType == null)
             {
                 return HttpNotFound();
@@ -79,7 +79,7 @@ namespace Car4U.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Description")] ExtraType extraType)
+        public ActionResult Edit([Bind(Include = "ID,Description")] ExtraModelType extraType)
         {
             if (ModelState.IsValid)
             {
@@ -97,7 +97,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            ExtraType extraType = db.ExtraTypes.Find(id);
+            ExtraModelType extraType = db.ExtraTypes.Find(id);
             if (extraType == null)
             {
                 return HttpNotFound();
@@ -110,7 +110,7 @@ namespace Car4U.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(string id)
         {
-            ExtraType extraType = db.ExtraTypes.Find(id);
+            ExtraModelType extraType = db.ExtraTypes.Find(id);
             db.ExtraTypes.Remove(extraType);
             db.SaveChanges();
             return RedirectToAction("Index");

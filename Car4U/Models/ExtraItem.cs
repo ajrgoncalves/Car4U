@@ -5,10 +5,10 @@ using System.Web;
 
 namespace Car4U.Models
 {
-    public class ExtraType
+    public class ExtraItem
     {
         public string ID { get; set; }
-        public string Description { get; set; }
-        public virtual ICollection<ExtraModel> IdExtraModel { get; set; }
+        public virtual ICollection<Reservation> IdReservations { get; set; }
+        public virtual ExtraModel IdModel { get; set; }
     }
 }

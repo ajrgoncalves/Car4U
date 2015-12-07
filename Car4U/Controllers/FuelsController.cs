@@ -28,7 +28,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Fuel fuel = db.Fuels.Find(id);
+            FuelType fuel = db.Fuels.Find(id);
             if (fuel == null)
             {
                 return HttpNotFound();
@@ -47,7 +47,7 @@ namespace Car4U.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Description")] Fuel fuel)
+        public ActionResult Create([Bind(Include = "Id,Description")] FuelType fuel)
         {
             if (ModelState.IsValid)
             {
@@ -66,7 +66,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Fuel fuel = db.Fuels.Find(id);
+            FuelType fuel = db.Fuels.Find(id);
             if (fuel == null)
             {
                 return HttpNotFound();
@@ -79,7 +79,7 @@ namespace Car4U.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Description")] Fuel fuel)
+        public ActionResult Edit([Bind(Include = "Id,Description")] FuelType fuel)
         {
             if (ModelState.IsValid)
             {
@@ -97,7 +97,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Fuel fuel = db.Fuels.Find(id);
+            FuelType fuel = db.Fuels.Find(id);
             if (fuel == null)
             {
                 return HttpNotFound();
@@ -110,7 +110,7 @@ namespace Car4U.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(string id)
         {
-            Fuel fuel = db.Fuels.Find(id);
+            FuelType fuel = db.Fuels.Find(id);
             db.Fuels.Remove(fuel);
             db.SaveChanges();
             return RedirectToAction("Index");

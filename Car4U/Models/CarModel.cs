@@ -13,7 +13,6 @@ namespace Car4U.CarModels
 
         public virtual Brand brand { get; set; }
 
-        public virtual ICollection<Car> car { get; set; }
         
     }
 }

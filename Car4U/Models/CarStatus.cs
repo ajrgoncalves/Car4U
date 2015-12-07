@@ -5,15 +5,15 @@ using System.Web;
 
 namespace Car4U.Models
 {
-    public class Unavailability
+    public class CarStatus
     {
-        public string Id { get; set; }
-        public string Description { get; set; }
+        public string ID { get; set; }
         public string Observation { get; set; }
         public DateTime BeginDate { get; set; }
         public DateTime FinishDate { get; set; }
 
-        public virtual ICollection<Car> Car { get; set; }
-        
+        public virtual Status Status { get; set; }
+        public virtual Car Car { get; set; }
+
     }
 }

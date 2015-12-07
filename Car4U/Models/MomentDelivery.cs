@@ -5,13 +5,12 @@ using System.Web;
 
 namespace Car4U.Models
 {
-    public class Moment
+    public class MomentDelivery
     {
         public string Id { get; set; }
         public DateTime Date { get; set; }
         public string Observation { get; set; }
-        public virtual MomentType IdMomentType { get; set; }
-        public virtual Reservation IdReservation { get; set; }
+        public virtual ICollection<Reservation> Reservation { get; set; }
        
     }
 }

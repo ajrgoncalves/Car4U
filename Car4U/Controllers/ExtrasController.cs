@@ -28,7 +28,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Extra extra = db.Extras.Find(id);
+            ExtraItem extra = db.Extras.Find(id);
             if (extra == null)
             {
                 return HttpNotFound();
@@ -47,7 +47,7 @@ namespace Car4U.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID")] Extra extra)
+        public ActionResult Create([Bind(Include = "ID")] ExtraItem extra)
         {
             if (ModelState.IsValid)
             {
@@ -66,7 +66,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Extra extra = db.Extras.Find(id);
+            ExtraItem extra = db.Extras.Find(id);
             if (extra == null)
             {
                 return HttpNotFound();
@@ -79,7 +79,7 @@ namespace Car4U.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID")] Extra extra)
+        public ActionResult Edit([Bind(Include = "ID")] ExtraItem extra)
         {
             if (ModelState.IsValid)
             {
@@ -97,7 +97,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Extra extra = db.Extras.Find(id);
+            ExtraItem extra = db.Extras.Find(id);
             if (extra == null)
             {
                 return HttpNotFound();
@@ -110,7 +110,7 @@ namespace Car4U.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(string id)
         {
-            Extra extra = db.Extras.Find(id);
+            ExtraItem extra = db.Extras.Find(id);
             db.Extras.Remove(extra);
             db.SaveChanges();
             return RedirectToAction("Index");
