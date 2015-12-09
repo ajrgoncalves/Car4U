@@ -28,7 +28,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Moment moment = db.Moments.Find(id);
+            MomentDelivery moment = db.Moments.Find(id);
             if (moment == null)
             {
                 return HttpNotFound();
@@ -47,7 +47,7 @@ namespace Car4U.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Date,Observation")] Moment moment)
+        public ActionResult Create([Bind(Include = "Id,Date,Observation")] MomentDelivery moment)
         {
             if (ModelState.IsValid)
             {
@@ -66,7 +66,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Moment moment = db.Moments.Find(id);
+            MomentDelivery moment = db.Moments.Find(id);
             if (moment == null)
             {
                 return HttpNotFound();
@@ -79,7 +79,7 @@ namespace Car4U.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Date,Observation")] Moment moment)
+        public ActionResult Edit([Bind(Include = "Id,Date,Observation")] MomentDelivery moment)
         {
             if (ModelState.IsValid)
             {
@@ -97,7 +97,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Moment moment = db.Moments.Find(id);
+            MomentDelivery moment = db.Moments.Find(id);
             if (moment == null)
             {
                 return HttpNotFound();
@@ -110,7 +110,7 @@ namespace Car4U.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(string id)
         {
-            Moment moment = db.Moments.Find(id);
+            MomentDelivery moment = db.Moments.Find(id);
             db.Moments.Remove(moment);
             db.SaveChanges();
             return RedirectToAction("Index");

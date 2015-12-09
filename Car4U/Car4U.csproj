@@ -194,7 +194,6 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MeetingPointsController.cs" />
     <Compile Include="Controllers\MomentsController.cs" />
-    <Compile Include="Controllers\MomentTypesController.cs" />
     <Compile Include="Controllers\PromotionsController.cs" />
     <Compile Include="Controllers\ReservationsController.cs" />
     <Compile Include="Controllers\UnavailabilitiesController.cs" />
@@ -206,20 +205,21 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Brand.cs" />
     <Compile Include="Models\Car.cs" />
+    <Compile Include="Models\CarStatus.cs" />
     <Compile Include="Models\Category.cs" />
-    <Compile Include="Models\Extra.cs" />
+    <Compile Include="Models\ExtraItem.cs" />
     <Compile Include="Models\ExtraModel.cs" />
-    <Compile Include="Models\ExtraType.cs" />
-    <Compile Include="Models\Fuel.cs" />
+    <Compile Include="Models\ExtraModelType.cs" />
+    <Compile Include="Models\FuelType.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MeetingPoint.cs" />
     <Compile Include="Models\CarModel.cs" />
-    <Compile Include="Models\Moment.cs" />
-    <Compile Include="Models\MomentType.cs" />
+    <Compile Include="Models\MomentDelivery.cs" />
+    <Compile Include="Models\MomentReturn.cs" />
     <Compile Include="Models\Promotion.cs" />
     <Compile Include="Models\Reservation.cs" />
-    <Compile Include="Models\Unavailability.cs" />
+    <Compile Include="Models\Status.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>

@@ -28,7 +28,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Unavailability unavailability = db.Unavailabilities.Find(id);
+            Status unavailability = db.Unavailabilities.Find(id);
             if (unavailability == null)
             {
                 return HttpNotFound();
@@ -47,7 +47,7 @@ namespace Car4U.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Description,Observation,BeginDate,FinishDate")] Unavailability unavailability)
+        public ActionResult Create([Bind(Include = "Id,Description,Observation,BeginDate,FinishDate")] Status unavailability)
         {
             if (ModelState.IsValid)
             {
@@ -66,7 +66,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Unavailability unavailability = db.Unavailabilities.Find(id);
+            Status unavailability = db.Unavailabilities.Find(id);
             if (unavailability == null)
             {
                 return HttpNotFound();
@@ -79,7 +79,7 @@ namespace Car4U.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Description,Observation,BeginDate,FinishDate")] Unavailability unavailability)
+        public ActionResult Edit([Bind(Include = "Id,Description,Observation,BeginDate,FinishDate")] Status unavailability)
         {
             if (ModelState.IsValid)
             {
@@ -97,7 +97,7 @@ namespace Car4U.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Unavailability unavailability = db.Unavailabilities.Find(id);
+            Status unavailability = db.Unavailabilities.Find(id);
             if (unavailability == null)
             {
                 return HttpNotFound();
@@ -110,7 +110,7 @@ namespace Car4U.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(string id)
         {
-            Unavailability unavailability = db.Unavailabilities.Find(id);
+            Status unavailability = db.Unavailabilities.Find(id);
             db.Unavailabilities.Remove(unavailability);
             db.SaveChanges();
             return RedirectToAction("Index");
