@@ -1,0 +1,567 @@
+﻿
+@{
+    ViewBag.Title = "Frota";
+}
+
+@*<h2>Frota</h2>
+
+    <div class="row">
+            <section class="col-lg-12 cardetails">
+                <article class="col-lg-6">
+                    <div class="panel col-lg-4">
+                        <img src="~/Content/car1.png" />
+                        <div class="panel-footer">
+                        <p>Categoria x1</p>
+                        </div>
+                    </div>
+
+                    <div class="panel col-lg-4">
+                        <img src="~/Content/car2.jpg" />
+                        <div class="panel-footer">
+                            <p>Categoria x2</p>
+                        </div>
+                    </div>
+
+                    <div class="panel col-lg-4">
+                        <img src="~/Content/car3.jpg" />
+                        <div class="panel-footer">
+                            <p>Categoria x3</p>
+                        </div>
+                    </div>
+
+                    <div class="panel col-lg-4">
+                        <img src="~/Content/car4.jpg" />
+                        <div class="panel-footer">
+                            <p>Categoria x4</p>
+                        </div>
+                    </div>
+
+                    <div class="panel col-lg-4">
+                        <img src="#" />
+                        <div class="panel-footer">
+                            <p>Categoria x5</p>
+                        </div>
+                    </div>
+
+                    <div class="panel col-lg-4">
+                        <img src="#" />
+                        <div class="panel-footer">
+                            <p>Categoria x6</p>
+                        </div>
+                    </div>
+
+                    <div class="panel col-lg-4">
+                        <img src="#" />
+                        <div class="panel-footer">
+                            <p>Categoria x7</p>
+                        </div>
+                    </div>
+
+                    <div class="panel col-lg-4">
+                        <img src="#" />
+                        <div class="panel-footer">
+                            <p>Categoria x8</p>
+                        </div>
+                    </div>
+
+                    <div class="panel col-lg-4">
+                        <img src="#" />
+                        <div class="panel-footer">
+                            <p>Categoria x9</p>
+                        </div>
+                    </div>
+
+                </article>
+                <article class="col-lg-6">
+                    <div>
+                        <h3>Categoria clicada</h3>
+                        <img src="#" />
+                        <div class="row">
+                            <div><label>Nº de Portas</label><p>x portas</p></div>
+                            <div><label>Nº de Bagagem</label><p>x bagagem</p></div>
+                            <div><label>Tipo Combustível</label><p>tipo</p></div>
+                            <div><label>Franquia</label><p>franquia</p></div>
+                            <div><label>Mudanças</label><p>tipo</p></div>
+                            <div><label>Preço /dia</label><p>x euros</p></div>
+                        </div>
+                        <button class="btn btn-default pull-right">Reservar</button>
+
+                    </div>
+
+                </article>
+
+            </section>
+
+
+        </div>*@
+
+
+<div class="container">
+    <div class="page-header">
+        <h2>Fleet </h2>
+    </div>
+    @* Inicio frota *@
+    <div class="frota">
+        <div class="col-md-4">
+            <img style="text-align:center; max-width:450px; height:220px;" src="~/Content/car1.png">
+            <br>
+            <h4>Peugeot 108<br><small> Similares:  Similares </small></h4>
+            <p class="comment"><b></b></p>
+            <h5>Grupo A - Económico</h5>
+            <div>
+                <ul class="features">
+                    <li class="seats" title="Nº de pessoas">    4</li>
+                    <li class="doors" title="Nº de portas">3</li>
+                    <li class="baggage" title="Bagagem">1</li>
+                    <li class="manual" title="Caixa de velocidades">Manual</li>
+                    <li class="fuel" title="Tipo de combustível">Gasolina</li>
+                    <li class="aircon" title="Ar condicionado">Ar condicionado</li>
+                </ul>
+            </div>
+            <div>
+                <b>Desde 16.40 € por dia</b>
+            </div>
+            <div class="button">
+                <button id="button" class="submit" data-toggle="modal" data-target="#formModal" data-fleet="32" data-start-date="2014-06-25" data-end-date="2014-08-31">Reserve já</button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <img style="text-align:center; max-width:350px; height:220px;" src="~/Content/car2.jpg">
+            <br>
+            <h4>Peugeot 108<br><small> Similares:  Similares </small></h4>
+            <p class="comment"><b></b></p>
+            <h5>Grupo A - Económico</h5>
+            <div>
+                <ul class="features">
+                    <li class="seats" title="Nº de pessoas">4</li>
+                    <li class="doors" title="Nº de portas">3</li>
+                    <li class="baggage" title="Bagagem">1</li>
+                    <li class="manual" title="Caixa de velocidades">Manual</li>
+                    <li class="fuel" title="Tipo de combustível">Gasolina</li>
+                    <li class="aircon" title="Ar condicionado">Ar condicionado</li>
+                </ul>
+            </div>
+            <div>
+                <b>Desde 16.40 € por dia</b>
+            </div>
+            <div class="button">
+                <button id="button" class="submit" data-toggle="modal" data-target="#formModal" data-fleet="32" data-start-date="2014-06-25" data-end-date="2014-08-31">Reserve já</button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <img style="text-align:center; max-width:350px; height:220px;" src="~/Content/car3.jpg">
+            <br>
+            <h4>Peugeot 108<br><small> Similares:  Similares </small></h4>
+            <p class="comment"><b></b></p>
+            <h5>Grupo A - Económico</h5>
+            <div>
+                <ul class="features">
+                    <li class="seats" title="Nº de pessoas">4</li>
+                    <li class="doors" title="Nº de portas">3</li>
+                    <li class="baggage" title="Bagagem">1</li>
+                    <li class="manual" title="Caixa de velocidades">Manual</li>
+                    <li class="fuel" title="Tipo de combustível">Gasolina</li>
+                    <li class="aircon" title="Ar condicionado">Ar condicionado</li>
+                </ul>
+            </div>
+            <div>
+                <b>Desde 16.40 € por dia</b>
+            </div>
+            <div class="button">
+                <button id="button" class="submit" data-toggle="modal" data-target="#formModal" data-fleet="32" data-start-date="2014-06-25" data-end-date="2014-08-31">Reserve já</button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <img style="text-align:center; max-width:350px; height:220px;" src="~/Content/car2.jpg">
+            <br>
+            <h4>Peugeot 108<br><small> Similares:  Similares </small></h4>
+            <p class="comment"><b></b></p>
+            <h5>Grupo A - Económico</h5>
+            <div>
+                <ul class="features">
+                    <li class="seats" title="Nº de pessoas">4</li>
+                    <li class="doors" title="Nº de portas">3</li>
+                    <li class="baggage" title="Bagagem">1</li>
+                    <li class="manual" title="Caixa de velocidades">Manual</li>
+                    <li class="fuel" title="Tipo de combustível">Gasolina</li>
+                    <li class="aircon" title="Ar condicionado">Ar condicionado</li>
+                </ul>
+            </div>
+            <div>
+                <b>Desde 16.40 € por dia</b>
+            </div>
+            <div class="button">
+                <button id="button" class="submit" data-toggle="modal" data-target="#formModal" data-fleet="32" data-start-date="2014-06-25" data-end-date="2014-08-31">Reserve já</button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <img style="text-align:center; max-width:350px; height:220px;" src="~/Content/car4.jpg">
+            <br>
+            <h4>Peugeot 108<br><small> Similares:  Similares </small></h4>
+            <p class="comment"><b></b></p>
+            <h5>Grupo A - Económico</h5>
+            <div>
+                <ul class="features">
+                    <li class="seats" title="Nº de pessoas">4</li>
+                    <li class="doors" title="Nº de portas">3</li>
+                    <li class="baggage" title="Bagagem">1</li>
+                    <li class="manual" title="Caixa de velocidades">Manual</li>
+                    <li class="fuel" title="Tipo de combustível">Gasolina</li>
+                    <li class="aircon" title="Ar condicionado">Ar condicionado</li>
+                </ul>
+            </div>
+            <div>
+                <b>Desde 16.40 € por dia</b>
+            </div>
+            <div class="button">
+                <button id="button" class="submit" data-toggle="modal" data-target="#formModal" data-fleet="32" data-start-date="2014-06-25" data-end-date="2014-08-31">Reserve já</button>
+            </div>
+        </div>
+    </div>
+    @* Fim frota *@
+
+    @* Inicio Reservar *@
+
+    <div class="modal fade in" id="formModal" tabindex="-1" role="dialog" aria-labelledby="Reserva" aria-hidden="false" style="display: block;">
+        <div class="modal-dialog modal-dialog-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h4 class="modal-title" id="myModalLabel">Reservar</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-danger" style="display: none;" id="alertMessage"></div>
+
+                    <form class="fleet-booking-form" id="bookingForm" method="post" action="/pt/booking-fleet/" novalidate="novalidate">
+                        <input type="hidden" id="fleetId" name="fleet_id" value="32">
+                        <div class="frota">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="picking_location_id" class="control-label">Local de levantamento</label>
+                                        <select id="picking_location_id" class="form-control" name="picking_location_id" required="">
+                                            <option value="">Por favor escolha...</option>
+                                            <option value="1">Lisboa - Aeroporto</option>
+                                            <option value="2">Porto - Aeroporto</option>
+                                            <option value="4">Estação comboio - Aveiro</option>
+                                            <option value="6">Balcão - Oliveira do Bairro</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="picking_equals_delivery">
+                                            <input type="checkbox" id="picking_equals_delivery" name="picking_equals_delivery" checked=""> Local de levantamento igual ao de devolução
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row" id="delivery_location_row" style="display: none">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="delivery_location_id" class="control-label">Local de devolução</label>
+                                        <select id="delivery_location_id" class="form-control" name="delivery_location_id" required="">
+                                            <option value="">Por favor escolha...</option>
+                                            <option value="1">Lisboa - Aeroporto</option>
+                                            <option value="2">Porto - Aeroporto</option>
+                                            <option value="4">Estação comboio - Aveiro</option>
+                                            <option value="6">Balcão - Oliveira do Bairro</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="control-label" for="age">Idade do condutor</label>
+                                        <select id="age" class="form-control" name="age" required="">
+                                            <option value="">Por favor escolha...</option>
+                                            <option value="18">18</option>
+                                            <option value="19">19</option>
+                                            <option value="20">20</option>
+                                            <option value="21-75" selected="">21-75</option>
+                                            <option value="76">76</option>
+                                            <option value="77">77</option>
+                                            <option value="78">78</option>
+                                            <option value="79">79</option>
+                                            <option value="80">80</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row" style="display: none;">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="fleet_category_id" class="control-label">Categoria da viatura</label>
+                                        <select id="fleet_category_id" class="form-control" name="fleet_category_id">
+                                            <option value="">Todos</option>
+                                            <option value="1">Económico</option>
+                                            <option value="2">Compacto</option>
+                                            <option value="9">Automático</option>
+                                            <option value="3">Familiar</option>
+                                            <option value="11">Luxo</option>
+                                            <option value="5">MiniVan 7 Pax</option>
+                                            <option value="6">MiniBus 9 Pax</option>
+                                            <option value="4">Cabriolet</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="picking_date" class="control-label">Data de levantamento</label>
+                                        <input type="date" id="picking_date" name="picking_date" type="text" class="form-control hasDatepicker" placeholder="dd-mm-aaaa" autocomplete="off" required="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="picking_hour" class="control-label">Hora</label>
+                                        <select id="picking_hour" class="form-control" name="picking_hour" required="">
+                                            <option value="0:00" data-hours="0" data-minutes="0">0:00</option>
+                                            <option value="0:15" data-hours="0" data-minutes="15">0:15</option>
+                                            <option value="0:30" data-hours="0" data-minutes="30">0:30</option>
+                                            <option value="0:45" data-hours="0" data-minutes="45">0:45</option>
+                                            <option value="1:00" data-hours="1" data-minutes="0">1:00</option>
+                                            <option value="1:15" data-hours="1" data-minutes="15">1:15</option>
+                                            <option value="1:30" data-hours="1" data-minutes="30">1:30</option>
+                                            <option value="1:45" data-hours="1" data-minutes="45">1:45</option>
+                                            <option value="2:00" data-hours="2" data-minutes="0">2:00</option>
+                                            <option value="2:15" data-hours="2" data-minutes="15">2:15</option>
+                                            <option value="2:30" data-hours="2" data-minutes="30">2:30</option>
+                                            <option value="2:45" data-hours="2" data-minutes="45">2:45</option>
+                                            <option value="3:00" data-hours="3" data-minutes="0">3:00</option>
+                                            <option value="3:15" data-hours="3" data-minutes="15">3:15</option>
+                                            <option value="3:30" data-hours="3" data-minutes="30">3:30</option>
+                                            <option value="3:45" data-hours="3" data-minutes="45">3:45</option>
+                                            <option value="4:00" data-hours="4" data-minutes="0">4:00</option>
+                                            <option value="4:15" data-hours="4" data-minutes="15">4:15</option>
+                                            <option value="4:30" data-hours="4" data-minutes="30">4:30</option>
+                                            <option value="4:45" data-hours="4" data-minutes="45">4:45</option>
+                                            <option value="5:00" data-hours="5" data-minutes="0">5:00</option>
+                                            <option value="5:15" data-hours="5" data-minutes="15">5:15</option>
+                                            <option value="5:30" data-hours="5" data-minutes="30">5:30</option>
+                                            <option value="5:45" data-hours="5" data-minutes="45">5:45</option>
+                                            <option value="6:00" data-hours="6" data-minutes="0">6:00</option>
+                                            <option value="6:15" data-hours="6" data-minutes="15">6:15</option>
+                                            <option value="6:30" data-hours="6" data-minutes="30">6:30</option>
+                                            <option value="6:45" data-hours="6" data-minutes="45">6:45</option>
+                                            <option value="7:00" data-hours="7" data-minutes="0">7:00</option>
+                                            <option value="7:15" data-hours="7" data-minutes="15">7:15</option>
+                                            <option value="7:30" data-hours="7" data-minutes="30">7:30</option>
+                                            <option value="7:45" data-hours="7" data-minutes="45">7:45</option>
+                                            <option value="8:00" data-hours="8" data-minutes="0">8:00</option>
+                                            <option value="8:15" data-hours="8" data-minutes="15">8:15</option>
+                                            <option value="8:30" data-hours="8" data-minutes="30">8:30</option>
+                                            <option value="8:45" data-hours="8" data-minutes="45">8:45</option>
+                                            <option value="9:00" data-hours="9" data-minutes="0" selected="">9:00</option>
+                                            <option value="9:15" data-hours="9" data-minutes="15">9:15</option>
+                                            <option value="9:30" data-hours="9" data-minutes="30">9:30</option>
+                                            <option value="9:45" data-hours="9" data-minutes="45">9:45</option>
+                                            <option value="10:00" data-hours="10" data-minutes="0">10:00</option>
+                                            <option value="10:15" data-hours="10" data-minutes="15">10:15</option>
+                                            <option value="10:30" data-hours="10" data-minutes="30">10:30</option>
+                                            <option value="10:45" data-hours="10" data-minutes="45">10:45</option>
+                                            <option value="11:00" data-hours="11" data-minutes="0">11:00</option>
+                                            <option value="11:15" data-hours="11" data-minutes="15">11:15</option>
+                                            <option value="11:30" data-hours="11" data-minutes="30">11:30</option>
+                                            <option value="11:45" data-hours="11" data-minutes="45">11:45</option>
+                                            <option value="12:00" data-hours="12" data-minutes="0">12:00</option>
+                                            <option value="12:15" data-hours="12" data-minutes="15">12:15</option>
+                                            <option value="12:30" data-hours="12" data-minutes="30">12:30</option>
+                                            <option value="12:45" data-hours="12" data-minutes="45">12:45</option>
+                                            <option value="13:00" data-hours="13" data-minutes="0">13:00</option>
+                                            <option value="13:15" data-hours="13" data-minutes="15">13:15</option>
+                                            <option value="13:30" data-hours="13" data-minutes="30">13:30</option>
+                                            <option value="13:45" data-hours="13" data-minutes="45">13:45</option>
+                                            <option value="14:00" data-hours="14" data-minutes="0">14:00</option>
+                                            <option value="14:15" data-hours="14" data-minutes="15">14:15</option>
+                                            <option value="14:30" data-hours="14" data-minutes="30">14:30</option>
+                                            <option value="14:45" data-hours="14" data-minutes="45">14:45</option>
+                                            <option value="15:00" data-hours="15" data-minutes="0">15:00</option>
+                                            <option value="15:15" data-hours="15" data-minutes="15">15:15</option>
+                                            <option value="15:30" data-hours="15" data-minutes="30">15:30</option>
+                                            <option value="15:45" data-hours="15" data-minutes="45">15:45</option>
+                                            <option value="16:00" data-hours="16" data-minutes="0">16:00</option>
+                                            <option value="16:15" data-hours="16" data-minutes="15">16:15</option>
+                                            <option value="16:30" data-hours="16" data-minutes="30">16:30</option>
+                                            <option value="16:45" data-hours="16" data-minutes="45">16:45</option>
+                                            <option value="17:00" data-hours="17" data-minutes="0">17:00</option>
+                                            <option value="17:15" data-hours="17" data-minutes="15">17:15</option>
+                                            <option value="17:30" data-hours="17" data-minutes="30">17:30</option>
+                                            <option value="17:45" data-hours="17" data-minutes="45">17:45</option>
+                                            <option value="18:00" data-hours="18" data-minutes="0">18:00</option>
+                                            <option value="18:15" data-hours="18" data-minutes="15">18:15</option>
+                                            <option value="18:30" data-hours="18" data-minutes="30">18:30</option>
+                                            <option value="18:45" data-hours="18" data-minutes="45">18:45</option>
+                                            <option value="19:00" data-hours="19" data-minutes="0">19:00</option>
+                                            <option value="19:15" data-hours="19" data-minutes="15">19:15</option>
+                                            <option value="19:30" data-hours="19" data-minutes="30">19:30</option>
+                                            <option value="19:45" data-hours="19" data-minutes="45">19:45</option>
+                                            <option value="20:00" data-hours="20" data-minutes="0">20:00</option>
+                                            <option value="20:15" data-hours="20" data-minutes="15">20:15</option>
+                                            <option value="20:30" data-hours="20" data-minutes="30">20:30</option>
+                                            <option value="20:45" data-hours="20" data-minutes="45">20:45</option>
+                                            <option value="21:00" data-hours="21" data-minutes="0">21:00</option>
+                                            <option value="21:15" data-hours="21" data-minutes="15">21:15</option>
+                                            <option value="21:30" data-hours="21" data-minutes="30">21:30</option>
+                                            <option value="21:45" data-hours="21" data-minutes="45">21:45</option>
+                                            <option value="22:00" data-hours="22" data-minutes="0">22:00</option>
+                                            <option value="22:15" data-hours="22" data-minutes="15">22:15</option>
+                                            <option value="22:30" data-hours="22" data-minutes="30">22:30</option>
+                                            <option value="22:45" data-hours="22" data-minutes="45">22:45</option>
+                                            <option value="23:00" data-hours="23" data-minutes="0">23:00</option>
+                                            <option value="23:15" data-hours="23" data-minutes="15">23:15</option>
+                                            <option value="23:30" data-hours="23" data-minutes="30">23:30</option>
+                                            <option value="23:45" data-hours="23" data-minutes="45">23:45</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="delivery_date" class="control-label">Data de devolução</label>
+                                        <input type="date" id="delivery_date" name="delivery_date" type="text" class="form-control hasDatepicker" placeholder="dd-mm-aaaa" autocomplete="off" disabled="" required="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="delivery_hour" class="control-label">Hora</label>
+                                        <select id="delivery_hour" class="form-control" name="delivery_hour" required="" disabled="">
+                                            <option value="0:00" data-hours="0" data-minutes="0">0:00</option>
+                                            <option value="0:15" data-hours="0" data-minutes="15">0:15</option>
+                                            <option value="0:30" data-hours="0" data-minutes="30">0:30</option>
+                                            <option value="0:45" data-hours="0" data-minutes="45">0:45</option>
+                                            <option value="1:00" data-hours="1" data-minutes="0">1:00</option>
+                                            <option value="1:15" data-hours="1" data-minutes="15">1:15</option>
+                                            <option value="1:30" data-hours="1" data-minutes="30">1:30</option>
+                                            <option value="1:45" data-hours="1" data-minutes="45">1:45</option>
+                                            <option value="2:00" data-hours="2" data-minutes="0">2:00</option>
+                                            <option value="2:15" data-hours="2" data-minutes="15">2:15</option>
+                                            <option value="2:30" data-hours="2" data-minutes="30">2:30</option>
+                                            <option value="2:45" data-hours="2" data-minutes="45">2:45</option>
+                                            <option value="3:00" data-hours="3" data-minutes="0">3:00</option>
+                                            <option value="3:15" data-hours="3" data-minutes="15">3:15</option>
+                                            <option value="3:30" data-hours="3" data-minutes="30">3:30</option>
+                                            <option value="3:45" data-hours="3" data-minutes="45">3:45</option>
+                                            <option value="4:00" data-hours="4" data-minutes="0">4:00</option>
+                                            <option value="4:15" data-hours="4" data-minutes="15">4:15</option>
+                                            <option value="4:30" data-hours="4" data-minutes="30">4:30</option>
+                                            <option value="4:45" data-hours="4" data-minutes="45">4:45</option>
+                                            <option value="5:00" data-hours="5" data-minutes="0">5:00</option>
+                                            <option value="5:15" data-hours="5" data-minutes="15">5:15</option>
+                                            <option value="5:30" data-hours="5" data-minutes="30">5:30</option>
+                                            <option value="5:45" data-hours="5" data-minutes="45">5:45</option>
+                                            <option value="6:00" data-hours="6" data-minutes="0">6:00</option>
+                                            <option value="6:15" data-hours="6" data-minutes="15">6:15</option>
+                                            <option value="6:30" data-hours="6" data-minutes="30">6:30</option>
+                                            <option value="6:45" data-hours="6" data-minutes="45">6:45</option>
+                                            <option value="7:00" data-hours="7" data-minutes="0">7:00</option>
+                                            <option value="7:15" data-hours="7" data-minutes="15">7:15</option>
+                                            <option value="7:30" data-hours="7" data-minutes="30">7:30</option>
+                                            <option value="7:45" data-hours="7" data-minutes="45">7:45</option>
+                                            <option value="8:00" data-hours="8" data-minutes="0">8:00</option>
+                                            <option value="8:15" data-hours="8" data-minutes="15">8:15</option>
+                                            <option value="8:30" data-hours="8" data-minutes="30">8:30</option>
+                                            <option value="8:45" data-hours="8" data-minutes="45">8:45</option>
+                                            <option value="9:00" data-hours="9" data-minutes="0" selected="">9:00</option>
+                                            <option value="9:15" data-hours="9" data-minutes="15">9:15</option>
+                                            <option value="9:30" data-hours="9" data-minutes="30">9:30</option>
+                                            <option value="9:45" data-hours="9" data-minutes="45">9:45</option>
+                                            <option value="10:00" data-hours="10" data-minutes="0">10:00</option>
+                                            <option value="10:15" data-hours="10" data-minutes="15">10:15</option>
+                                            <option value="10:30" data-hours="10" data-minutes="30">10:30</option>
+                                            <option value="10:45" data-hours="10" data-minutes="45">10:45</option>
+                                            <option value="11:00" data-hours="11" data-minutes="0">11:00</option>
+                                            <option value="11:15" data-hours="11" data-minutes="15">11:15</option>
+                                            <option value="11:30" data-hours="11" data-minutes="30">11:30</option>
+                                            <option value="11:45" data-hours="11" data-minutes="45">11:45</option>
+                                            <option value="12:00" data-hours="12" data-minutes="0">12:00</option>
+                                            <option value="12:15" data-hours="12" data-minutes="15">12:15</option>
+                                            <option value="12:30" data-hours="12" data-minutes="30">12:30</option>
+                                            <option value="12:45" data-hours="12" data-minutes="45">12:45</option>
+                                            <option value="13:00" data-hours="13" data-minutes="0">13:00</option>
+                                            <option value="13:15" data-hours="13" data-minutes="15">13:15</option>
+                                            <option value="13:30" data-hours="13" data-minutes="30">13:30</option>
+                                            <option value="13:45" data-hours="13" data-minutes="45">13:45</option>
+                                            <option value="14:00" data-hours="14" data-minutes="0">14:00</option>
+                                            <option value="14:15" data-hours="14" data-minutes="15">14:15</option>
+                                            <option value="14:30" data-hours="14" data-minutes="30">14:30</option>
+                                            <option value="14:45" data-hours="14" data-minutes="45">14:45</option>
+                                            <option value="15:00" data-hours="15" data-minutes="0">15:00</option>
+                                            <option value="15:15" data-hours="15" data-minutes="15">15:15</option>
+                                            <option value="15:30" data-hours="15" data-minutes="30">15:30</option>
+                                            <option value="15:45" data-hours="15" data-minutes="45">15:45</option>
+                                            <option value="16:00" data-hours="16" data-minutes="0">16:00</option>
+                                            <option value="16:15" data-hours="16" data-minutes="15">16:15</option>
+                                            <option value="16:30" data-hours="16" data-minutes="30">16:30</option>
+                                            <option value="16:45" data-hours="16" data-minutes="45">16:45</option>
+                                            <option value="17:00" data-hours="17" data-minutes="0">17:00</option>
+                                            <option value="17:15" data-hours="17" data-minutes="15">17:15</option>
+                                            <option value="17:30" data-hours="17" data-minutes="30">17:30</option>
+                                            <option value="17:45" data-hours="17" data-minutes="45">17:45</option>
+                                            <option value="18:00" data-hours="18" data-minutes="0">18:00</option>
+                                            <option value="18:15" data-hours="18" data-minutes="15">18:15</option>
+                                            <option value="18:30" data-hours="18" data-minutes="30">18:30</option>
+                                            <option value="18:45" data-hours="18" data-minutes="45">18:45</option>
+                                            <option value="19:00" data-hours="19" data-minutes="0">19:00</option>
+                                            <option value="19:15" data-hours="19" data-minutes="15">19:15</option>
+                                            <option value="19:30" data-hours="19" data-minutes="30">19:30</option>
+                                            <option value="19:45" data-hours="19" data-minutes="45">19:45</option>
+                                            <option value="20:00" data-hours="20" data-minutes="0">20:00</option>
+                                            <option value="20:15" data-hours="20" data-minutes="15">20:15</option>
+                                            <option value="20:30" data-hours="20" data-minutes="30">20:30</option>
+                                            <option value="20:45" data-hours="20" data-minutes="45">20:45</option>
+                                            <option value="21:00" data-hours="21" data-minutes="0">21:00</option>
+                                            <option value="21:15" data-hours="21" data-minutes="15">21:15</option>
+                                            <option value="21:30" data-hours="21" data-minutes="30">21:30</option>
+                                            <option value="21:45" data-hours="21" data-minutes="45">21:45</option>
+                                            <option value="22:00" data-hours="22" data-minutes="0">22:00</option>
+                                            <option value="22:15" data-hours="22" data-minutes="15">22:15</option>
+                                            <option value="22:30" data-hours="22" data-minutes="30">22:30</option>
+                                            <option value="22:45" data-hours="22" data-minutes="45">22:45</option>
+                                            <option value="23:00" data-hours="23" data-minutes="0">23:00</option>
+                                            <option value="23:15" data-hours="23" data-minutes="15">23:15</option>
+                                            <option value="23:30" data-hours="23" data-minutes="30">23:30</option>
+                                            <option value="23:45" data-hours="23" data-minutes="45">23:45</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row form-error">
+                                <div class="col-md-12 form-error-message">
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6"></div>
+                                <div class="col-md-6">
+                                    <div class="button">
+                                        <button id="bookingFormSubmit" class="submit" type="submit" style="float:right;">Pesquisar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+
+    @* Fim Reservar*@
+
+
+
+
+</div>
