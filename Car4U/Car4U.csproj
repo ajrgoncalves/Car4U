@@ -194,7 +194,6 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MeetingPointsController.cs" />
     <Compile Include="Controllers\MomentDeliveriesController.cs" />
-    <Compile Include="Controllers\MomentReturnsController.cs" />
     <Compile Include="Controllers\PromotionsController.cs" />
     <Compile Include="Controllers\ReservationsController.cs" />
     <Compile Include="Controllers\StatusController.cs" />
