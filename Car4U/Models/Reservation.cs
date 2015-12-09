@@ -19,6 +19,6 @@ namespace Car4U.Models
         public virtual MomentReturn MomentReturn { get; set; }
         public virtual Category Category { get; set; }
         public virtual ApplicationUser user { get; set; }
-        public virtual Promotion Promotion { get; set; }
+        public virtual ICollection<Promotion_Reservation> Promotion_Reservations { get; set; }
     }
 }

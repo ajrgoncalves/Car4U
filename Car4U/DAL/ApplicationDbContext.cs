@@ -36,5 +36,7 @@ namespace Car4U.DAL
         }
 
         public System.Data.Entity.DbSet<Car4U.Models.Status> Unavailabilities { get; set; }
+
+        public System.Data.Entity.DbSet<Car4U.Models.CarStatus> CarStatus { get; set; }
     }
 }
