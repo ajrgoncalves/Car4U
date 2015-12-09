@@ -233,6 +233,7 @@
     <Content Include="Content\Car4U.fw.png" />
     <Content Include="Content\Car4ULogo.png" />
     <Content Include="Content\Car4U_ico.fw.ico" />
+    <Content Include="Content\ferrari.jpg" />
     <Content Include="Content\frota_icons.png" />
     <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
@@ -356,7 +357,6 @@
     <Content Include="Views\Unavailabilities\Details.cshtml" />
     <Content Include="Views\Unavailabilities\Edit.cshtml" />
     <Content Include="Views\Unavailabilities\Index.cshtml" />
-    <Content Include="Views\Home\Frota_.cshtml" />
     <Content Include="Views\Home\Extras.cshtml" />
     <Content Include="Views\Home\Frota.cshtml" />
   </ItemGroup>

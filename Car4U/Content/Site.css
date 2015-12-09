@@ -1,5 +1,17 @@
 ﻿@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
 
+.right-btn{
+    text-align: right;
+}
+
+.center-btn{
+    text-align: center;
+}
+
+.left-btn{
+    text-align: left;
+}
+
 .home-box{
     margin-top:20px;
     float:left;
