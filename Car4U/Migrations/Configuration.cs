@@ -4,6 +4,10 @@ namespace Car4U.Migrations
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
+    using Car4U.DAL;
+    using Microsoft.AspNet.Identity;
+    using Microsoft.AspNet.Identity.EntityFramework;
+    using Car4U.Models;
 
     internal sealed class Configuration : DbMigrationsConfiguration<Car4U.DAL.ApplicationDbContext>
     {
@@ -13,20 +17,29 @@ namespace Car4U.Migrations
             AutomaticMigrationDataLossAllowed = true;
         }
 
-        protected override void Seed(Car4U.DAL.ApplicationDbContext context)
+        protected override void Seed(ApplicationDbContext context)
         {
-            //  This method will be called after migrating to the latest version.
+            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
+            var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+            if (!roleManager.RoleExists("Admin"))
+            {
+                roleManager.Create(new IdentityRole("Admin"));
+            }
+
+
+            var user = new ApplicationUser { UserName = "SuperAdmin" };
+
+
+            if (userManager.FindByName("SuperAdmin") == null)
+            {
+                var result = userManager.Create(user, "password");
+
+                if (result.Succeeded)
+                {
+                    userManager.AddToRole(user.Id, "Admin");
+                }
+            }
         }
     }
 }

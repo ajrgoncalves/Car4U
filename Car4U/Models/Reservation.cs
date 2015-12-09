@@ -12,11 +12,13 @@ namespace Car4U.Models
         public DateTime ReturnDate { get; set; }
         public DateTime DeliveryDate { get; set; }
         public double FinalPrice { get; set; }
-        public virtual MeetingPoint IdMPDelivery { get; set; }
-        public virtual MeetingPoint IdMPReturn { get; set; }
-        public virtual ICollection<Extra> IdExtras { get; set; }
-        public virtual ICollection<Moment> IdMoments { get; set; }
-        public virtual Category IdCategory { get; set; }
+        public virtual MeetingPoint MPDelivery { get; set; }
+        public virtual MeetingPoint MPReturn { get; set; }
+        public virtual ICollection<ExtraItem> Extras { get; set; }
+        public virtual MomentDelivery MomentDelivery { get; set; }
+        public virtual MomentReturn MomentReturn { get; set; }
+        public virtual Category Category { get; set; }
         public virtual ApplicationUser user { get; set; }
+        public virtual ICollection<Promotion_Reservation> Promotion_Reservations { get; set; }
     }
 }
