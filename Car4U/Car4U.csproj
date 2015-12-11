@@ -368,7 +368,6 @@
     <Content Include="Views\Promotions\Index.cshtml" />
     <Content Include="Views\Home\Frota_.cshtml" />
     <Content Include="Views\Home\Extras.cshtml" />
-    <Content Include="Views\Home\Frota.cshtml" />
     <Content Include="Views\CarStatus\Create.cshtml" />
     <Content Include="Views\CarStatus\Delete.cshtml" />
     <Content Include="Views\CarStatus\Details.cshtml" />
@@ -399,6 +398,8 @@
     <Content Include="Views\Status\Details.cshtml" />
     <Content Include="Views\Status\Edit.cshtml" />
     <Content Include="Views\Status\Index.cshtml" />
+    <Content Include="Views\Home\Frota.cshtml" />
+    <Content Include="Views\Home\Frota - Copy %282%29.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

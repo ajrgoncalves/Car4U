@@ -409,13 +409,13 @@ b {
 
 body {
     color: #333333;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 14px;
     line-height: 1.42857;
 }
 
 legend {
-    font-family: arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding-bottom: 10px;
 }
 
@@ -428,7 +428,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 p {
-    font-family: arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-weight: normal;
 }
 
@@ -648,7 +648,7 @@ nav#menu #menu-nav li:first-child {
 nav#menu #menu-nav li a {
     color: #333333;
     display: block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 12px;
@@ -660,13 +660,13 @@ nav#menu #menu-nav li a {
 nav#menu #menu-nav li.current a, nav#menu #menu-nav li a:hover {
     color: #FFFFFF;
     text-decoration: none;
-    border-top: 3px solid #FF0000;
+    border-top: 3px solid #FFD700;
 }
 
 nav#menu #menu-nav li a:hover, nav#menu #menu-nav li.sfHover a, nav#menu #menu-nav li.active a {
     color: #FFFFFF;
     text-decoration: none;
-    border-top: 3px solid #FF0000;
+    border-top: 3px solid #FFD700;
 }
 
 nav#menu #menu-nav li a:hover, nav#menu #menu-nav li.sfHover a, nav#menu #menu-nav li.active a {
@@ -827,10 +827,10 @@ nav#menu #menu-nav li.sfHover ul a:hover {
 }
 
 .form_hp button {
-    background: none repeat scroll 0 0 #FF0000;
+    background: none repeat scroll 0 0 #FFD700;
     border-radius: 8px;
     color: #111111;
-    border: 1px solid #FF0000;
+    border: 1px solid #FFD700;
 }
 
 
@@ -851,21 +851,21 @@ nav#menu #menu-nav li.sfHover ul a:hover {
     font-weight: bold;
     padding: 2.8em 0 0;
     text-shadow: 0 0 5px #000000;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 #homepage_sub_title {
     color: #FFFFFF;
     font-size: 42px;
     text-shadow: 0 0 5px #000000;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 #homepage_p {
     color: #FFFFFF;
     font-size: 24px;
     text-shadow: 0 0 5px #000000;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 /* ==================================================
@@ -889,7 +889,7 @@ nav#menu #menu-nav li.sfHover ul a:hover {
 .destaque-title {
     color: #000000;
     display: block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 17px;
     font-weight: bold;
     text-decoration: none;
@@ -897,9 +897,9 @@ nav#menu #menu-nav li.sfHover ul a:hover {
 
 
 .destaque-subtitle {
-    color: #FF0000;
+    color: #FFD700;
     display: block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 12px;
     font-weight: 700;
 }
@@ -921,10 +921,10 @@ nav#menu #menu-nav li.sfHover ul a:hover {
 }
 
 .submitNextRes {
-    background-color: #FF0000;
-    border: 1px solid #FF0000;
+    background-color: #FFD700;
+    border: 1px solid #FFD700;
     border-radius: 5px;
-    color: #FFFFFF;
+    color: #000000;
     cursor: pointer;
     float: left;
     font-size: 14px;
@@ -938,7 +938,7 @@ nav#menu #menu-nav li.sfHover ul a:hover {
 
 footer {
     background-color: #CCCCCC;
-    border-top: 0 solid #FF0000;
+    border-top: 0 solid #FFD700;
     float: left;
     height: auto;
     margin-top: 20px;
@@ -947,7 +947,7 @@ footer {
 
 .footer_header {
     color: #767575;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: bold;
@@ -995,10 +995,10 @@ footer {
     color: #000000;
     font-size: 14px;
     line-height: 26px;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .post li a:hover {
-    color: #FF0000;
+    color: #FFD700;
     line-height: 26px;
 }
 
@@ -1008,7 +1008,7 @@ footer {
 }
 
 .post p {
-font-family: Arial,sans-serif;
+font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .post .adress {
@@ -1019,7 +1019,7 @@ font-family: Arial,sans-serif;
     margin-right: 0;
     padding: 0 0 0 35px;
     width: 100%;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .post .phone {
@@ -1102,12 +1102,12 @@ font-family: Arial,sans-serif;
     border-bottom: 1px solid #F8BA1C;
     margin: 30px 0 20px;
     padding-bottom: 9px;
-    font-family: arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     width: 99%;
 }
 
 .page-header2 {
-    border-bottom: 1px solid #FF0000;
+    border-bottom: 1px solid #FFD700;
     margin: 30px 0 20px;
     font-family: Arial, sans-serif;
 }
@@ -1145,7 +1145,7 @@ font-family: Arial,sans-serif;
     margin-left: 2px;
 }
 .fleet-nav > li.active > a, .fleet-nav > li.active > a:hover, .fleet-nav > li.active > a:focus {
-    background-color: #FF0000;
+    background-color: #FFD700;
     color: #FFFFFF;
 }
 .fleet-nav > li.active > a .caret, .fleet-nav > li.active > a:hover .caret, .fleet-nav > li.active > a:focus .caret {
@@ -1172,7 +1172,7 @@ font-family: Arial,sans-serif;
 }
 
 .fleet-nav > li > a:hover, .nav > li > a:focus {
-    background-color: #FF0000;
+    background-color: #FFD700;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -1188,7 +1188,7 @@ font-family: Arial,sans-serif;
 .frota h4 {
     color: #111111;
     display: inline-block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     height: 40px;
     overflow: hidden;
 }
@@ -1220,7 +1220,7 @@ font-family: Arial,sans-serif;
 
 .frota label {
     color: #111111;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .banner-text{ position:absolute; top:25px; width:850px; }
@@ -1232,46 +1232,47 @@ font-family: Arial,sans-serif;
 }
 
 .form_hp legend { 
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: #FFFFFF;
 }
 
 .form_hp .has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline {
-    color: #FF0000;
+    color: #FFD700;
 }
 
 .form_hp .has-error .form-control {
-    border: 3px solid #FF0000;
+    border: 3px solid #FFD700;
     box-shadow: 0 0 0 inset;
 }
 .form_hp .has-error label {
-    color:#FF0000 !important;
+    color:#FFD700 !important;
 }
 .fleet-booking-form .form-error {
     font-size:12px;
-    color:#FF0000 !important;
+    color:#FFD700 !important;
 }
 
 .form-error {
   display:none;
   font-size:11px;
-  color:#FF0000;
+  color:#FFD700;
 }
 
 .frota h5 { 
     color: #111111;
     display: inline-block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
 }
 
 .frota h6 { 
     color: #111111;
     display: inline-block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .frota small { 
-    color: #FF0000;
+    color: #FF4500;
     font-weight: normal;
     line-height: 1;
     font-size: 12px;
@@ -1424,7 +1425,7 @@ ul.features li.disabled .unit {
     color: black;
     cursor: pointer;
     display: inline-block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 16px;
     font-weight: bold;
     margin-top: 18px;
@@ -1443,15 +1444,15 @@ ul.features li.disabled .unit {
 }
 
 .button .submit:hover {
-    background: none repeat scroll 0 0 #FF0000;
-    color: #FFFFFF;
+    background: none repeat scroll 0 0 #FFD700;
+    color: #000000;
     text-decoration: none;
     cursor:pointer;
     outline:none;
 }
 
 .button .submit.submit-unavailable {
-    background: none repeat scroll 0 0 #FF0000;
+    background: none repeat scroll 0 0 #FFD700;
     cursor: default;
 }
 
@@ -1476,14 +1477,14 @@ ul.features li.disabled .unit {
 }
 
 .reserva {
-    border-bottom: 7px solid #FF0000;
+    border-bottom: 7px solid #FFD700;
     box-shadow: 0 0 7px #DEDEDE;
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
 
 .form-group a {
-    color: #FF0000;
+    color: #FFD700;
     border-bottom: 0px solid #6EB663;
     box-shadow: 0 0 0px #DEDEDE;
 }
@@ -1495,14 +1496,14 @@ ul.features li.disabled .unit {
 .reserva h2 { 
     color: #111111;
     display: inline-block;
-    font-family: arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     width: 100%;
 }
 
 .reserva h3 {
     color: #333333;
     display: inline-block;
-    font-family: arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-weight: 600;
     width: 100%;
 }
@@ -1510,13 +1511,13 @@ ul.features li.disabled .unit {
 .reserva h5 { 
     color: #999999;
     display: inline-block;
-    font-family: arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .reserva h6 { 
     color: #999999;
     display: inline-block;
-    font-family: arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-weight: bold;
     margin: 0;
 }
@@ -1533,20 +1534,20 @@ ul.features li.disabled .unit {
 }
 
 .sidebar-booking h3 {
-    background: none repeat scroll 0 0 #FF0000;
+    background: none repeat scroll 0 0 #FFD700;
     color: #FFFFFF;
     display: inline-block;
-    font-family: arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding: 10px;
     width: 100%;
     margin-top: 0;
 }
 
 .sidebar-booking h1 {
-    background: none repeat scroll 0 0 #FF0000;
+    background: none repeat scroll 0 0 #FFD700;
     color: #FFFFFF;
     display: inline-block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding: 10px;
     width: 100%;
     font-size: 24px;
@@ -1561,11 +1562,11 @@ ul.features li.disabled .unit {
 }
 
 .sidebar-booking .row {
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .sidebar-booking3 {
-    border: 6px solid #FF0000;
+    border: 6px solid #FFD700;
     height: auto;
     margin: 0;
     padding: 5px 0 20px;
@@ -1580,7 +1581,7 @@ ul.features li.disabled .unit {
     border-bottom: 1px solid #CCCCCC;
     color: #111111;
     display: inline-block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-top: 0;
     padding: 10px;
     width: 100%;
@@ -1596,7 +1597,7 @@ ul.features li.disabled .unit {
 .sidebar-booking3 h4 {
     color: #999999;
     display: inline-block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     padding: 0px;
     width: 100%;
 }
@@ -1604,7 +1605,7 @@ ul.features li.disabled .unit {
 .sidebar-booking3 h2 {
     color: #999999;
     display: inline-block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 20px;
     margin: 0;
     padding: 0 0 10px;
@@ -1613,9 +1614,9 @@ ul.features li.disabled .unit {
 
 .sidebar-booking3 h1 {
     border-bottom: 5px solid #CCCCCC;
-    color: #FF0000;
+    color: #FFD700;
     display: inline-block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 32px;
     margin-top: 0;
     padding: 15px 0 15px;
@@ -1623,7 +1624,7 @@ ul.features li.disabled .unit {
 }
 
 .sidebar-booking3 p {
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 
 }
 
@@ -1634,11 +1635,11 @@ ul.features li.disabled .unit {
 }
 
 .sidebar-booking3 .row {
-        font-family: Arial,sans-serif;
+        font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .optional h3 {
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     width: 100%;
     font-size: 18px;
 }
@@ -1652,15 +1653,15 @@ ul.features li.disabled .unit {
 .optional h3 {
     color: #111111;
     display: inline-block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     width: 100%;
 }
 
 .optional .col-md-2 h3 {
-    background: none repeat scroll 0 0 #FF0000;
+    background: none repeat scroll 0 0 #FFD700;
     color: #FFFFFF;
     display: inline-block;
-    font-family: arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-weight: bold;
     padding: 10px;
     width: auto;
@@ -1670,23 +1671,23 @@ ul.features li.disabled .unit {
 .optional h5 {
     color: #777777;
     display: inline-block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     line-height: 23px;
     width: 100%;
 }
 
 .optional button {
-    background: none repeat scroll 0 0 #FF0000;
+    background: none repeat scroll 0 0 #FFFA58;
     border-radius: 8px;
-    color: #FFFFFF;
-    border: 1px solid #FF0000;
+    color: #000000;
+    border: 1px solid #FFD700;
 }
 
 .optional button:hover {
-    background: none repeat scroll 0 0 #FF0000;
-    border: 1px solid #FF0000;
+    background: none repeat scroll 0 0 #FFFA58;
+    border: 1px solid #FFFA58;
     border-radius: 8px;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .booking_steps {
@@ -1704,7 +1705,7 @@ ul.features li.disabled .unit {
     color: #444444;
 }
 .booking_steps .active {
-    background-color: #FF0000;
+    background-color: #FFD700;
     color: #FFFFFF;
     padding: 20px;
 }
@@ -1719,17 +1720,17 @@ ul.features li.disabled .unit {
    News
 ================================================== */
 
-.news {
+/*.news {
     margin: 0;
 }
 
 .news .button .submit {
-    background: none repeat scroll 0 0 #FF0000;
+    background: none repeat scroll 0 0 #FFD700;
     border-radius: 0px;
     color: #FFF;
     cursor: pointer;
     display: inline-block;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 14px;
     font-weight: 500;
     margin-top: 3px;
@@ -1742,14 +1743,14 @@ ul.features li.disabled .unit {
 }
 
 .news .button .submit:hover {
-    background: none repeat scroll 0 0 #FF0000;
-    color: #FFFFFF;
+    background: none repeat scroll 0 0 #FFD700;
+    color: #000000;
     text-decoration: none;
 }
 
 .news p {
     color: #777777;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .news b {
@@ -1785,7 +1786,7 @@ ul.features li.disabled .unit {
 .news h1 {
     font-size: 21px;
     font-weight: bold;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin-top: 0;
     }
 
@@ -1793,27 +1794,27 @@ ul.features li.disabled .unit {
     margin-bottom: 20px;
     border-bottom: 0px solid green;
     
-    }
+    }*/
 
 /* ==================================================
    Faq
 ================================================== */
 
-.faq {
+/*.faq {
     margin: 0;
 }
 
 .faq .panel-default > .panel-heading {
-    background-color: #FF0000;
-    border-color: #FF0000;
-    color: #FFFFFF;
+    background-color: #FFD700;
+    border-color: #FFD700;
+    color: #FFFFFF;*/
 }
 
 /* ==================================================
    Contacts
 ================================================== */
 
-.contacts {
+/*.contacts {
     margin: 0;
 }
 
@@ -1823,16 +1824,16 @@ ul.features li.disabled .unit {
 }
 
 .news_slider {
-    margin: 0;
+    margin: 0;*/
 }
 
 /* ==================================================
    Site map
 ================================================== */
 
-.sitemap a {
+/*.sitemap a {
     color: #333333;
-    font-family: Arial,sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-decoration: underline;
 
     }
@@ -1843,15 +1844,15 @@ ul.features li.disabled .unit {
     }
 
 .sitemap a:hover {
-    color: #FF0000;
-    font-family: Arial,sans-serif;
+    color: #FFD700;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-decoration: none;
 
     }
 
 .sitemap h4 {
-    color: #FF0000;
-    font-family: Arial,sans-serif;
+    color: #FFD700;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-decoration: none;
     font-weight: bold;
 
@@ -1859,7 +1860,7 @@ ul.features li.disabled .unit {
 
 #parceiro_homepage {
     text-align: center;    
-}
+}*/
 
 @media (min-width: 980px) and (max-width: 1200px) {
 	
@@ -1867,7 +1868,7 @@ ul.features li.disabled .unit {
 	    color: #FFFFFF;
 	    font-size: 32px;
 	    text-shadow: 0 0 5px #000000;
-	    font-family: Arial,sans-serif;
+	    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	}
 
 	nav#menu #menu-nav li {
@@ -1880,7 +1881,7 @@ ul.features li.disabled .unit {
 	nav#menu #menu-nav li a {
 	    color: #333333;
 	    display: block;
-	    font-family: Arial,sans-serif;
+	    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	    font-size: 11px;
 	    font-weight: 700;
 	    line-height: 12px;
